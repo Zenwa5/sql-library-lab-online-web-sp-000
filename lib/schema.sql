@@ -16,7 +16,7 @@ CREATE TABLE authors (
 );
 CREATE TABLE books (
   title TEXT,
-  year TEXT,
+  year DATE,
   series_id INTEGER,
   id INTEGER PRIMARY KEY
 );
