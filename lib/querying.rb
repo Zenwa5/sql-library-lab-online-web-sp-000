@@ -17,7 +17,7 @@ end
 def select_value_and_count_of_most_prolific_species
   "SELECT DISTINCT species, COUNT(DISTINCT species)
   FROM characters
-  ORDER BY species 
+  ORDER BY species
   LIMIT 1 "
 end
 
